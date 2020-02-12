@@ -45,7 +45,7 @@ def movies_with_director_key(name, movies_collection)
     result << movie_with_director_name(name, movie_data)
     index += 1
   end
-  p result
+  result
   # INPUT:
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
